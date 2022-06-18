@@ -1,0 +1,50 @@
+.school-section-page {
+  padding-bottom: 100px;
+
+  .slide-wrap  {
+    height: 450px;
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 6px;
+    font-weight: 500;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    gap: 30px;
+  }
+  .content {
+    height: 300px;
+    background-color: blue;
+    .left {
+      width: 60%;
+      // .list {
+        
+      // }
+    }
+  }
+}
